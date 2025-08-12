@@ -25,7 +25,7 @@ reviews:
     enabled: true
     auto_incremental_review: true
     drafts: false
-    base_branches: [".*"]
+    base_branches: [".*"] # Add regex to scan all branches
     
   # Tool integrations
   tools:
